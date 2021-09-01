@@ -1,0 +1,10 @@
+[12-Aug-2021 11:36:05 Asia/Jakarta] PHP Warning:  Uncaught ErrorException: Array to string conversion in /var/www-fuelcard/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35
+Stack trace:
+#0 /var/www-fuelcard/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/var/www-fuelca...', 35, Array)
+#1 /var/www-fuelcard/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require()
+#2 /var/www-fuelcard/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Routing\RouteFileRegistrar->register(Array)
+#3 /var/www-fuelcard/vendor/laravel/framework/src/Illuminate/Routing/Router.php(374): Illuminate\Routing\Router->loadRoutes(Array)
+#4 /var/www-fuelcard/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(135): Illuminate\Routing\Router->group(Array, Array)
+#5 /var/www-fuelcard/routes/web.php(32): Illuminate\Routing\RouteRegistrar->group(Array, Object(Closure))
+#6 /var/www-fuelcard/ in /var/www-fuelcard/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[12-Aug-2021 11:36:05 Asia/Jakarta] PHP Fatal error:  Illuminate\Routing\RouteFileRegistrar::register(): Failed opening required 'Array' (include_path='.:/usr/share/pear:/usr/share/php') in /var/www-fuelcard/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35

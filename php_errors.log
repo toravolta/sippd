@@ -1,0 +1,1 @@
+[12-Aug-2021 00:48:51 UTC] PHP Fatal error:  Can't use function return value in write context in /var/www-fuelcard/app/Console/Commands/CsvImporter.php on line 49
